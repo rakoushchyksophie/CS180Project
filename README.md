@@ -1,6 +1,7 @@
 # CS18000 Auction House Team Project
 
 Program utilizing Java interfaces and classes to ultimately create an interactive Java Application where a user may list auctions and bid on other item listings.
+This program is part of a multi-phase Java project for CS18000 designed to simulate an interactive Auction House social platform. Users can list items for auction, place bids, view auctions in progress, and communicate with other users via a client-server model. Phase 2 focuses on building communication functionality between a client and a server, using a database to persist auction data.
 
 ## Features
 - Create Buyer Account
@@ -23,6 +24,22 @@ Program utilizing Java interfaces and classes to ultimately create an interactiv
 - Clone the Repo
 - $ git clone https://github.com/hsupple/CS180Project.git
 
+### Running Locally:
+1. Clone the repository or download the `.zip` file.
+2. Navigate to the root folder in terminal or command line.
+3. Compile:
+    ```bash
+    javac *.java
+    ```
+4. Start the server:
+    ```bash
+    java AuctionServer
+    ```
+5. In a new terminal window, start the client:
+    ```bash
+    java AuctionClient
+    ```
+
 ## Test Cases
 - Ensure you have a JUnit test case extension on your IDE
 - Ensure Server is running while JUnit tests are activated
@@ -36,3 +53,4 @@ Program utilizing Java interfaces and classes to ultimately create an interactiv
 - @hsupple
 - @jburkett013
 - @addy-ops
+- @rakoushchyksophie
